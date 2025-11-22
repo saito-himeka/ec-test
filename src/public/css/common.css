@@ -20,6 +20,12 @@
     font-size: 1.8rem;
     font-weight: 700;
     color: #2d3436;
+    text-decoration: none;
+}
+
+.logo a {
+    text-decoration: none;
+    color:#2d3436;
 }
 
 .nav-menu {

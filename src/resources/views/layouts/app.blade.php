@@ -13,13 +13,13 @@
     <header class="header">
         <nav class="nav-container">
             <div class="logo" id="site-name">
-                My Shop
+                <a href="/">My Shop</a>
             </div>
             <ul class="nav-menu">
-                <li><a href="#home">ホーム</a></li>
+                <li><a href="/">ホーム</a></li>
                 <li><a href="#products">商品</a></li>
                 <li><a href="#about">ショップ概要</a></li>
-                <li><a href="#contact">お問い合わせ</a></li>
+                <li><a href="/contacts">お問い合わせ</a></li>
             </ul><a href="#" class="cart-icon" onclick="openCart()"> 🛒 カート <span class="cart-count" id="cart-count">0</span> </a>
         </nav>
     </header>

@@ -17,3 +17,5 @@ use App\Http\Controllers\EcController;
 
 Route::get('/', [EcController::class, 'index']);
 Route::get('/contacts', [EcController::class, 'contact']);
+Route::post('/contacts/confirm', [EcController::class, 'confirm']);
+Route::post('/contacts', [EcController::class, 'store']);
